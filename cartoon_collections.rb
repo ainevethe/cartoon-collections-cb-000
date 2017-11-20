@@ -23,5 +23,6 @@ def find_the_cheese(string_array)
     if string_array.include?(cheese)
       return cheese
     else return nil
+    end
   end
 end

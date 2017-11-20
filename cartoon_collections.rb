@@ -15,7 +15,7 @@ end
 def long_planeteer_calls(calls_array)
   calls_array.count do |call|
     if call.length < 4
-      puts call
+     call
     end
   end
 end
